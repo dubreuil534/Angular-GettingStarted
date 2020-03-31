@@ -35,14 +35,14 @@ export class ProductListComponent{
     imageUrl: 'assets/images/garden_cart.png'
   },
   {
-    roductId: 5,
-    roductName: 'Hammer',
-    roductCode: 'TBX-0048',
-    eleaseDate: 'May 21, 2019',
-    escription: 'Curved claw steel hammer',
-    rice: 8.9,
-    tarRating: 4.8,
-    mageUrl: 'assets/images/hammer.png'
+    productId: 5,
+    productName: 'Hammer',
+    productCode: 'TBX-0048',
+    releaseDate: 'May 21, 2019',
+    description: 'Curved claw steel hammer',
+    price: 8.9,
+    starRating: 4.8,
+    imageUrl: 'assets/images/hammer.png'
   },
   {
     productId: 8,
