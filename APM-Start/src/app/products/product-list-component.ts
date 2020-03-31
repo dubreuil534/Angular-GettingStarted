@@ -12,6 +12,7 @@ export class ProductListComponent{
   pageTitle: string = 'Product List';
   imageWith: number = 50;
   imageMargin: number = 2;
+  showImage: boolean = false;
   products: any[] = [{
     productId: 1,
     productName: 'Leaf Rake',
@@ -65,8 +66,12 @@ export class ProductListComponent{
 
 
 
-  ]
+  ];
 
+  toggleImage(): void{
+    this.showImage = !this.showImage;
+
+}
 
 
 }
