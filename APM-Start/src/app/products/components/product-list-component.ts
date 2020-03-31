@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IProduct } from './product';
+import { IProduct } from '../model/product';
 import { listLazyRoutes } from '@angular/compiler/src/aot/lazy_routes';
 
 @Component({
